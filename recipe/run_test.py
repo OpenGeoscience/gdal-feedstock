@@ -40,8 +40,8 @@ driver = gdal.GetDriverByName("JP2OpenJPEG")
 assert driver is not None
 
 # only available when curl successfully linked in.
-driver = gdal.GetDriverByName("WCS")
-assert driver is not None
+# driver = gdal.GetDriverByName("WCS")
+# assert driver is not None
 
 # only available when freexl successfully linked in.
 # driver = ogr.GetDriverByName("XLS")
