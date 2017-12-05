@@ -25,10 +25,12 @@ requirements:
     - cmake  # [win]
     - numpy
     - libgdal {{ version }}
+    - curl 7.54.1
     - vc 9  # [win and py27]
     - vc 14  # [win and (py35 and py36)]
   run:
     - python
+    - curl 7.54.1
     - numpy
     - libgdal {{ version }}
     - vc 9  # [win and py27]

@@ -21,8 +21,8 @@ assert driver is not None
 driver = gdal.GetDriverByName("PNG")
 assert driver is not None
 
-driver = gdal.GetDriverByName("JPEG")
-assert driver is not None
+#driver = gdal.GetDriverByName("JPEG")
+#assert driver is not None
 
 driver = gdal.GetDriverByName("GPKG")
 assert driver is not None
